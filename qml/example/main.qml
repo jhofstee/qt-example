@@ -7,7 +7,7 @@ Item {
 	Arrow {
 		fromX: 10
 		fromY: 10
-		toX: 300
-		toY: 400
+		toX: 310
+		toY: 410
 	}
 }
