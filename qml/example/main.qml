@@ -15,8 +15,8 @@ Item {
 
 	Arrow {
 		fromX: left.right /*  Unable to assign QDeclarativeAnchorLine to double */
-		fromY: left.y + left.height / 2; /* ugly version os verticalCenter but works */
-		toX: right.x; /* works, but left is preferred and won work */
+		fromY: left.y + left.height / 2; /* ugly version of verticalCenter but works */
+		toX: right.x; /* works, but left is preferred and won't work */
 		toY: right.y + right.height / 2; /* again ugly, why does verticalCenter not work */
 	}
 
